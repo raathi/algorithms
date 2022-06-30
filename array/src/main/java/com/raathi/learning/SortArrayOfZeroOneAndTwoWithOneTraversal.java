@@ -19,6 +19,10 @@ public class SortArrayOfZeroOneAndTwoWithOneTraversal {
         int low = 0;
         int mid = 0;
         int high = array.length - 1;
+        /*
+         * compare and move low, mid and high
+         * [2, 1, 1 , 0, 1, 2, 1, 2, 0, 0, 0, 1 ]
+        */
         while (mid <= high) {
             if(array[mid] == 2){
                 swap(array, mid, high);
