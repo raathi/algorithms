@@ -27,7 +27,9 @@ public class SortArrayOfZeroOneAndTwoWithOneTraversalTest {
                 Arguments.of(new int[] { 2, 1 }, 
                     new int[] { 1, 2 }),
                 Arguments.of(new int[] { 1, 2, 2, 2, 2, 2, 0, 0, 0, 0, 1, 1, 1, 1 },
-                    new int[] { 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2})
+                    new int[] { 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2}),
+                Arguments.of(new int[] { 2, 1, 1 , 0, 1, 2, 1, 2, 0, 0, 0, 1 },
+                    new int[] { 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2})
             );
     }
 }
